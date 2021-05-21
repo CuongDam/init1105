@@ -1,0 +1,15 @@
+clone từ github về local repository
+//
+git clone link github để clone về 
+
+sau đó dùng git fetch để kéo về staging area (vùng nhớ tạm)
+
+cuối cùng git pull để kéo về máy
+
+// có thể dùng status để check trạng thái
+
+-- git init để khởi tạo vùng nhớ trống trên vùng làm việc
+-- git remote add origin link github
+-- git add tên_file ( hoặc add .  để add all thay đổi )
+-- git commit -m "ghi chú về commit này" ( git commit --amend -m "..." )
+-- git push origin master (branch (nhánh)) là ok
